@@ -8,3 +8,38 @@ length = len(LA)
 print("Array Elements are: ")
 for x in range(0,length):
     print("LA",[x],"=", LA[x])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
