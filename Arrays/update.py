@@ -10,3 +10,40 @@ LA[2] = 10
 print("Elements after update are:")
 for i in range(len(LA)):
     print("LA",[i], "=", LA[i])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
