@@ -11,3 +11,30 @@ if __name__ == '__main__':
     print("Array After Deletion: ")
     for x in range(len(LA)):
         print("LA", [x], "=", LA[x])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
