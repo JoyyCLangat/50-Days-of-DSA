@@ -1,14 +1,16 @@
 def partition(arr, low, high):
-    pivot = arr[low]  # Use first element as pivot
-    i = low + 1
-    
+    pivot = arr[low]
+    i = low + 1  # Start right after the pivot
+
     for j in range(low + 1, high + 1):
-        if arr[j] <= pivot:  # Handle duplicates by including equal elements
+        if arr[j] <= pivot:  # Allow duplicates to go left
             arr[i], arr[j] = arr[j], arr[i]
             i += 1
-    
-    arr[low], arr[i - 1] = arr[i - 1], arr[low]  # Place pivot in correct position
+
+    # Now move pivot to its correct position (i - 1 is the first greater-than-pivot element)
+    arr[low], arr[i - 1] = arr[i - 1], arr[low]
     return i - 1
+
 
 # Test the function
 arr = [4, 2, 7, 2, 1, 8, 4]
