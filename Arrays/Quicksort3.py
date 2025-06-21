@@ -8,7 +8,7 @@ def partition(arr, low, high):
             i += 1
 
     # Now move pivot to its correct position (i - 1 is the first greater-than-pivot element)
-    arr[low], arr[i - 1] = arr[i - 1], arr[low]
+   # arr[low], arr[i - 1] = arr[i - 1], arr[low]
     return i - 1
 
 # Test the function
