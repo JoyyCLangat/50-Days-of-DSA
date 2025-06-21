@@ -11,7 +11,6 @@ def partition(arr, low, high):
     arr[low], arr[i - 1] = arr[i - 1], arr[low]
     return i - 1
 
-
 # Test the function
 arr = [4, 2, 7, 2, 1, 8, 4]
 print(f"Original: {arr}")
