@@ -7,8 +7,7 @@ def partition(arr, low, high):
             arr[i], arr[j] = arr[j], arr[i]
             i += 1
 
-    # Now move pivot to its correct position (i - 1 is the first greater-than-pivot element)
-   # arr[low], arr[i - 1] = arr[i - 1], arr[low]
+
     return i - 1
 
 # Test the function
@@ -17,3 +16,12 @@ print(f"Original: {arr}")
 pivot_index = partition(arr, 0, len(arr) - 1)
 print(f"After partition: {arr}")
 print(f"Pivot index: {pivot_index}, Pivot value: {arr[pivot_index]}")
+
+
+
+
+
+
+
+
+
