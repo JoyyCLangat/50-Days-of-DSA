@@ -37,7 +37,6 @@ def merge(l1, l2):
     return dummy.next
 
 # --- 🔁 UNIVERSAL TEST FUNCTION ---
-
 def test_sort_linked_list(values):
     # Convert Python list to linked list
     head = None
