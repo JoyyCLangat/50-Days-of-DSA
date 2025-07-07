@@ -35,6 +35,7 @@ def merge(l1, l2):
 
     tail.next = l1 or l2
     return dummy.next
+    
 
 # --- 🔁 UNIVERSAL TEST FUNCTION ---
 def test_sort_linked_list(values):
