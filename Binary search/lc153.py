@@ -15,4 +15,19 @@ class Solution(object):
                 right = mid
 
         return nums[left]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
         

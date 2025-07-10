@@ -19,3 +19,15 @@ arr = [1, 2, 2, 2, 3, 4]
 target = 2
 result = binary_search(arr, target)
 print(result)
+
+
+
+
+
+
+
+
+
+
+
+
