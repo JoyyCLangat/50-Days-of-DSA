@@ -11,3 +11,24 @@ def quick_sort(arr):
     return quick_sort(smaller) + equal + quick_sort(larger)
 
 print(quick_sort([3, 6, 8, 10, 1, 2, 1]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

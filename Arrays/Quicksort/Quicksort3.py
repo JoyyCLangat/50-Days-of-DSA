@@ -1,3 +1,5 @@
+# TO BE EDITED
+
 def partition(arr, low, high):
     pivot = arr[low]
     i = low + 1  # Start right after the pivot
@@ -16,6 +18,11 @@ print(f"Original: {arr}")
 pivot_index = partition(arr, 0, len(arr) - 1)
 print(f"After partition: {arr}")
 print(f"Pivot index: {pivot_index}, Pivot value: {arr[pivot_index]}")
+
+
+
+
+
 
 
 

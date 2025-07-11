@@ -12,3 +12,23 @@ def quick_sort(arr):
 
 arr1 = quick_sort([4, 2, 7, 2, 1, 8, 4])
 print(arr1[-1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
