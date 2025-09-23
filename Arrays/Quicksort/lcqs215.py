@@ -17,3 +17,5 @@ class Solution(object):
                 heapq.heapreplace(heap, num)
         
         return heap[0]
+    
+   
